@@ -1,4 +1,4 @@
-const Book = require("../models/book");
+const Book = require("../models/Book");
 
 exports.createBook = (req, res, next) => {
   delete req.body.id;
@@ -11,13 +11,13 @@ exports.createBook = (req, res, next) => {
 };
 
 exports.modifyBook = (req, res, next) => {
-  Book.updateOne({ _id: req.params.id }, { ...req.body, id: req.params.id })
+  Book.updateOne({ _id: req.params.id }, { ...req.body, _id: req.params.id })
     .then(() => res.status(200).json({ message: "Livre modifié !" }))
     .catch((error) => res.status(400).json({ error }));
 };
 
 exports.deleteBook = (req, res, next) => {
-  Book.deleteOne({ id: req.params.id })
+  Book.deleteOne({ _id: req.params.id })
     .then(() => res.status(200).json({ message: "Livre supprimé !" }))
     .catch((error) => res.status(400).json({ error }));
 };
