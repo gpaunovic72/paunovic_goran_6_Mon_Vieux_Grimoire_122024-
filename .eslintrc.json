@@ -17,6 +17,8 @@
     "no-console": ["off"],
 
     "no-use-before-define": ["off"],
-    "operator-linebreak": ["off"]
+    "operator-linebreak": ["off"],
+
+    "comma-dangle": ["off"]
   }
 }
