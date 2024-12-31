@@ -1,0 +1,254 @@
+[
+  {
+    "id": "1",
+    "userId": "clc4wj5lh3gyi0ak4eq4n8syr",
+    "title": "Milwaukee Mission",
+    "author": "Elder Cooper",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/5ccc/4259/8557d1328035a059629ef24ada741e6b?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pB1sWfy5eKOnQRnaNLjmtf8QYc1XyFrP0xOUV-YDHilNOrLeGza1Ti-VtME0~zc3J0au6xUUzjGNFyjNgFUs1fnK57XQAptush0erTYNvX4bwmEL8FhiMBRpaUq3RDSpDDfRycqjTDmWnhvid96MtSH~Hk~z5TARy03L3nf4nrM10xsHDkzHhOHaAOuz60ROc-t~0k1JdY1Zx-O~LXUZmHkygCt0XXOuL5AFClXbLJb4MmysJ7pIl5Px84BE7WPENefJDlzr-MQJgmTSKxNj8-81BPawqBRj3UaUPvoICsGc9KfzSWyPwY853mTbL8uTcGdGvk1WrNyJfLE2ixtP0w__",
+    "year": 2021,
+    "genre": "Policier",
+    "ratings": [
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "clc4wj5lh3gyi0ak4eq4n8syr",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      }
+    ],
+    "averageRating": 3
+  },
+  {
+    "id": "2",
+    "userId": "clbxs3tag6jkr0biul4trzbrv",
+    "title": "Book for Esther",
+    "author": "Alabaster",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/2a59/f3a3/154d672a849c3474756104beccfa3fdf?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p4m41iijSk0fueYRg~QKR97DWiPeTh3Zxws9ZYNcBdB4u2vJKUlepUNNZ37fiRDgc8p47eEyLTv80D2QN-qK4Dl9UWqMMwVV8BRPQJgAgsABXNh4C22hEiHJg2Abr7cP3Q1yTDKzrdFH1ULr2vRjm4NMQ8Bp977OR7xFWNzVLax8IohaoQtgAtyW8Xsw3vibr7nWuIMUj24IWA932qy7P6PkxyEyww1LD1XI0G2G7NUB4ykIA~BcLzxuNEN0Q0tt8jh53eL3kqqy53Ix65V3rsti0EOxT-1mRevRdfNgKoeKT8QO9S9mB9ZvIUmMbpmBA6HZpsireYZNc2SfyyOxkg__",
+    "year": 2022,
+    "genre": "Paysage",
+    "ratings": [
+      {
+        "userId": "clbxs3tag6jkr0biul4trzbrv",
+        "grade": 4
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      }
+    ],
+    "averageRating": 4.2
+  },
+  {
+    "id": "3",
+    "userId": "1",
+    "title": "The Kinfolk Table",
+    "author": "Nathan Williams",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/1221/83aa/ffa8638592a1c73cff3d53b90e001bdb?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EpwWDjhD07ykgZIdPzLpqzkgnoA5ilCGat12FLCcwfDVt-AGJxGo~d8O3DRpn00ZeLgqCAWeemSSx0ua7dT9VmLY0-q73ltaIeKaweAkKOGpl0nKwUqlaUePEXToQW1SzLM-Aky935KIsIo4ABeCD492jUwWQ9JK12JOrflYMbahLs3B01dSPIJxM5xlE~3fM5uF9f5hqkPjrT3oIr9HTXabby2XSDENNGLr3HXhz24XL6FpK1pujTm4Vu-OAwaOzfdvm7bVMZECsjrMIUd4Nyb5CcEYHs3vHqfY~0AA2K6ooaJYd85yADyJ0OFhdriuTVFbwJ0TPl2OU00hO7oRSg__",
+    "year": 2022,
+    "genre": "Cuisine",
+    "ratings": [
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      }
+    ],
+    "averageRating": 3
+  },
+  {
+    "id": "4",
+    "userId": "1",
+    "title": "Milwaukee Mission",
+    "author": "Elder Cooper",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/397e/ae3b/c6f0a0fc4831d86e1de84e8c8efe1e55?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HHlJ5Tj1YYiK2Qvxs1sN8AqzHCRj3VZHAxq68P8LZ-mMzCvuu~KXQx~gQcNjde4L31nHumc1vgfE3YxKUwI6UU1UNdUVeReXCdF0~LORCXQESiuLXcr81e13v0kX7g9GCqDilJsFTwr6Ofqub28p-czfQoJ1NrwOyhbbt-1wwpH5O98YnUTLhouzQb9QUrSvoOsV~S~vE9FO4Q2ib9RrLMpARfXGL4t0CtSo70fkxDjw8FSzlbSyKqMnTjhcBs427RiEAYJ4YOOPkICT9b75QVCaf5Ro0gal2Jj0Og8OAeHGT3ybj-1V3Svfgl86N3jS2bULV9lNdzH1lEjmUjGkSA__",
+    "year": 2021,
+    "genre": "Policier",
+    "ratings": [
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      }
+    ],
+    "averageRating": 3
+  },
+  {
+    "id": "5",
+    "userId": "1",
+    "title": "Book for Esther",
+    "author": "Alabaster",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/e27d/b0c1/7076a3da3d10a22f012c625392c245af?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LWLDfjPfSjuYq0gvVd68Ljxwo9AtAatDhyHo9pHyQjYR6X2nfm2w6~Te67vjooI3KK0QEhHdzmyXzfu4zLWT7PF7F2A2fdenM9GUuzsIAzgd9~sSkF~0xovOEYhsxF7j0xgXx70LC-nSkG0cTeBiSg7pSbPLJ-xRsnxbWk4DoaVV0XwjNfBPmKVVgqk6WFvOsB70jD3V5fKZCkM-Vfmm5mYIowErdzBUBkcjQP8jMptX1UGn9h7JCKtIDFEX5uiJeTuPwdCIpOb6K2Skut48tesi4zLRQOwzbf0K6ihI0~nHQoh6aKiIIPMk3i7ofr6CBb01GJDFfB430yt7vetZeQ__",
+    "year": 2022,
+    "genre": "Paysage",
+    "ratings": [
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      }
+    ],
+    "averageRating": 4
+  },
+  {
+    "id": "6",
+    "userId": "1",
+    "title": "The Kinfolk Table",
+    "author": "Nathan Williams",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/f2f1/3166/4db80ec4557f2609e1c5cfdbe0f027aa?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fS8FWmQMMjXVxfgWCsEQhDJJzrI2VZ7gF6OsoAr~PzqQkG-fklb7prLQ1xvoskSfD8xiErAS6oepcH3DaRjLmnkQIyneOEhr6CuXdF2AVOrodRaW~KkxLzDV1vhGb9Tv83a7hCA0iY4-hjadLISH1wepp3ODb-6jKkTGsxePwVGTIjmlxJg3JNGXZNoBfdRI0xxL5X302DTpyId77j1tkeLYnE3Wtf5bIgz8odRvEnJZgnRtXB615SimyrxOdD6qXv3YusiCiqu28H80WWVgrMee7urRHUIqM3PEsa7YRLmC9Rj522pZS~ju50zVesvdvQ~IfGX9hT459~lFnBnZag__",
+    "year": 2022,
+    "genre": "Cuisine",
+    "ratings": [
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      }
+    ],
+    "averageRating": 3
+  },
+  {
+    "id": "7",
+    "userId": "1",
+    "title": "Milwaukee Mission",
+    "author": "Elder Cooper",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/5385/cfb3/a6cc7bae27403c5758cb0094eac1431a?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D-sY0fRYmW1ln4bm9hSooE46m0~Wwsg02wT5s52kYq1IhtP6kcZpNwhPeQgYab0CIperrTkPi7fQFkO3rRZ2VVXshjdm70KZwviM~zK2c9R9IWYVsbn15jqzJQTIKk-WXbr0r8RYBYkfcGXc1Cm7Kv207WR5sSy-aXsgWMKX28yUcLshTXS-CoA513-mKSNqAG9Yakg7WKVBqYSRWXYALM2~Al9ZfZRitv5zVRScw6SqfgsXMOesa2jpU9o9eP5eeCd3ArJy2XZuX8MS2wtKHa~MdWosKy2-BHcczjX9frYtGzAPB94LcfZj8kqczESH74g7UlKTQySXPc38zVW93Q__",
+    "year": 2021,
+    "genre": "Policier",
+    "ratings": [
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      }
+    ],
+    "averageRating": 3
+  },
+  {
+    "id": "8",
+    "userId": "clc7s9xnh7zpt0ak4fisdwuj1",
+    "title": "Book for Esther",
+    "author": "Alabaster",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/eeb5/4bce/374d1c3d5180e49f39813d37bdf8adb2?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VXfR0~GIpecEPDlL7oOkLmQVlDFg7lfxnKIXsztmh8NoEKa5h4CexvXiZI2uzvr5u8u0QHqagyPrwzwxrHpsfE1eyOya0WY~Y2cqnBGSTyIcDOeO9ssRRSDWQCb7DXh1tOpGdoZhL03j04~1zOjJDWVcEQaV-L2lGRNlolX5oGpTMBZIzyJBgKfP7HlLZDDZ89SKGBkbaDgwxtc5etz9efXbsLC~NQKfNvl4ytSCG9ZHZFybot-gdvhpaTht5oUVpV6zqXGbElADSboVoMqofTHfqknMlrLpTVgvrWfMsuJ5nGMnKLPehsDgLsUNm7TAIyUfELKRzZrG5Dt32F7nwg__",
+    "year": 2022,
+    "genre": "Paysage",
+    "ratings": [
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      }
+    ],
+    "averageRating": 4
+  },
+  {
+    "id": "9",
+    "userId": "clc4wj5lh3gyi0ak4eq4n8syr",
+    "title": "The Kinfolk Table",
+    "author": "Nathan Williams",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/8bd7/5d3d/6abadeb12affac155a16a3fbcc66f2a9?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tfv-GWio6QQ57KWckxsXFzykmLUsuUGBzTjBV~utMRGClBJNkLP5nQq5CbOVcbXUIBzyNp74rMz7EVNZDZXiN8d9RvcTFA5-6FiMiqRlZZDT3gE3bYxfHN29L4yYLQ4Eptwd0w~VhGywc6Eq27AdsY6D5RGiNzuiBQXZCdV13Q8~jlDyT6bWWj3B3ea9WG4bDy9UnNlEKYKOV0BdLCoU4l1C6iDUxNNhD9S6r6Mon00~3YfNUH2AkT42Er3dHpJVA2An-Oy1uMpDL-X4c1eknPMOPTO8t0sG7kQe4f8eMq5SdMaaw5iozzUKMKbEEcMt9nCwMgk1BUXPbGqMi8yBJQ__",
+    "year": 2022,
+    "genre": "Cuisine",
+    "ratings": [
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "1",
+        "grade": 5
+      },
+      {
+        "userId": "clc4wj5lh3gyi0ak4eq4n8syr",
+        "grade": 1
+      }
+    ],
+    "averageRating": 3
+  }
+]
