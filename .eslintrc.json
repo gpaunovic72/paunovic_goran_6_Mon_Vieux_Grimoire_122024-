@@ -21,6 +21,9 @@
 
     "comma-dangle": ["off"],
 
-    "no-unused-vars": ["off"]
+    "no-unused-vars": ["off"],
+    "no-underscore-dangle": ["off"],
+
+    "consistent-return": ["off"]
   }
 }
