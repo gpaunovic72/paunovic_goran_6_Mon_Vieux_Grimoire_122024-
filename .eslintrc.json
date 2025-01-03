@@ -11,19 +11,8 @@
   },
   "plugins": ["react"],
   "rules": {
-    "quotes": ["off"],
-
-    "no-restricted-globals": ["off"],
-    "no-console": ["off"],
-
-    "no-use-before-define": ["off"],
-    "operator-linebreak": ["off"],
-
-    "comma-dangle": ["off"],
-
-    "no-unused-vars": ["off"],
-    "no-underscore-dangle": ["off"],
-
-    "consistent-return": ["off"]
+    "no-console": "off",
+    "func-names": "off", 
+    "consistent-return": "off"
   }
 }
