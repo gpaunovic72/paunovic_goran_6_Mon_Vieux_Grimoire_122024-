@@ -56,7 +56,7 @@ exports.deleteBook = (req, res, next) => {
 exports.getOneBook = (req, res, next) => {
   Book.findOne({ _id: req.params.id })
     .then((book) => res.status(200).json(book))
-    .catch((error) => res.status(404).json({ error }));
+    .catch((error) => res.status(404).json({ error: "Le livre n'est pas disponible." }));
 };
 
 exports.getBook = (req, res, next) => {
@@ -64,3 +64,29 @@ exports.getBook = (req, res, next) => {
     .then((books) => res.status(200).json(books))
     .catch((error) => res.status(400).json({ error }));
 };
+
+exports.ratingsBook = (req, res, next) => {
+  const userId = req.auth.userId;
+  const grade = req.body.rating;
+
+  Book.findOne({ _id: req.params.id })
+  .then((book) => {
+    if(!book) {
+      return res.status(404).json({ message: "Le livre n'est pas disponible."});
+    }
+
+    const existingRating = book.ratings.find((rating) => rating.userId === userId);
+    if(existingRating) {
+      return res.status(400).json({ message: "Vous avez déjà noté ce livre !"});
+    }
+
+    book.ratings.push({ userId, grade});
+
+    book.save()
+    .then(() => res.status(200).json({ message: "Note ajouté avec succès !"}))
+    .catch((error) => res.status(500).json({ error: "Erreur lors de l'enregistrement."}));
+  })
+
+  .catch((error) => res.status(500).json({ error: "Erreur server !"}));
+
+}

@@ -7,6 +7,7 @@ const router = express.Router();
 const bookCtrl = require("../controllers/book");
 
 router.post("/", auth, multerConfig, optimizedImg, bookCtrl.createBook);
+router.post("/:id/rating",auth, bookCtrl.ratingsBook);
 router.put("/:id", auth, multerConfig, optimizedImg, bookCtrl.modifyBook);
 router.delete("/:id", auth, bookCtrl.deleteBook);
 router.get("/:id", bookCtrl.getOneBook);

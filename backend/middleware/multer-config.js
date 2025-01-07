@@ -34,7 +34,7 @@ const optimizedImg = async (req, res, next) => {
   
   try{
     await sharp(inputPath)
-    .webp({quality: 80})
+    .webp({quality: 95})
     .toFile(outputPath);
 
     fs.unlinkSync(inputPath);
