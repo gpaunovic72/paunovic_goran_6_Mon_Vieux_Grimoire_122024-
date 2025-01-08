@@ -9,20 +9,8 @@
     "genre": "Policier",
     "ratings": [
       {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
         "userId": "clc4wj5lh3gyi0ak4eq4n8syr",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
+        "grade": 3
       }
     ],
     "averageRating": 3
@@ -39,21 +27,9 @@
       {
         "userId": "clbxs3tag6jkr0biul4trzbrv",
         "grade": 4
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
       }
     ],
-    "averageRating": 4.2
+    "averageRating": 4
   },
   {
     "id": "3",
@@ -66,19 +42,7 @@
     "ratings": [
       {
         "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
+        "grade": 3
       }
     ],
     "averageRating": 3
@@ -94,19 +58,7 @@
     "ratings": [
       {
         "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
+        "grade": 3
       }
     ],
     "averageRating": 3
@@ -122,19 +74,7 @@
     "ratings": [
       {
         "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
+        "grade": 4
       }
     ],
     "averageRating": 4
@@ -151,21 +91,9 @@
       {
         "userId": "1",
         "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
       }
     ],
-    "averageRating": 3
+    "averageRating": 5
   },
   {
     "id": "7",
@@ -178,19 +106,7 @@
     "ratings": [
       {
         "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
+        "grade": 3
       }
     ],
     "averageRating": 3
@@ -206,19 +122,7 @@
     "ratings": [
       {
         "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
+        "grade": 4
       }
     ],
     "averageRating": 4
@@ -233,22 +137,10 @@
     "genre": "Cuisine",
     "ratings": [
       {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
-        "userId": "1",
-        "grade": 5
-      },
-      {
         "userId": "clc4wj5lh3gyi0ak4eq4n8syr",
-        "grade": 1
+        "grade": 2
       }
     ],
-    "averageRating": 3
+    "averageRating": 2
   }
 ]
