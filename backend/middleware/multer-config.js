@@ -44,7 +44,7 @@ const optimizedImg = async (req, res, next) => {
 
     next();
   } catch(error){
-    return res.status(500).json({error: "Erreur lors de l'optimisation de l'image !"})
+    return res.status(500).json({ error })
   }
 }
 

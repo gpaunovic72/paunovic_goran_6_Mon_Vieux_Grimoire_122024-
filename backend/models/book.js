@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const validator = require("validator");
 
 const bookSchema = mongoose.Schema({
   title: { type: String, required: true },
@@ -15,6 +16,7 @@ const bookSchema = mongoose.Schema({
         required: true,
         validate: {
           validator: Number.isInteger,
+          message: "La note doit être un nombre entier",
         },
       },
       

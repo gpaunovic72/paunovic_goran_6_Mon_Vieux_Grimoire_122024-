@@ -77,24 +77,36 @@ exports.ratingsBook = (req, res, next) => {
     const userId = req.auth.userId;
     const grade = parseFloat(req.body.rating);
   
-    if(!Number.isInteger(grade) || grade < 0 || grade > 5) {
-      res.status(400).json(new Error("La note doit être un nombre entier compris entre 0 et 5 !"));
-    }
-
     const existingRating = book.ratings.find((rating) => rating.userId === userId);
     if(existingRating) {
       return res.status(400).json(new Error("Vous avez déjà noté ce livre !"));
     }
 
     book.ratings.push({ userId, grade });
-
     const totalRatings = book.ratings.reduce((sum, rating) => sum + rating.grade, 0);
-    book.averageRating = totalRatings / book.ratings.length;
+    book.averageRating = book.ratings.length > 0 ? totalRatings / book.ratings.length : 0;
 
     book.save()
     .then((book) => res.status(200).json(book))
-    .catch((error) => 
-      res.status(500).json({ error }));
+    .catch((error) => {
+      if (error.name === "ValidationError") {
+        const validationErrors = Object.values(error.errors);
+
+        const isValidatorError = validationErrors.some((err) => err.name === "ValidatorError");
+
+        if (isValidatorError) {
+          return res.status(400).json({
+            error: "Erreur de validation",
+            details: validationErrors.map((err) => ({
+              path: err.path,
+              message: err.message,
+              value: err.value,
+            })),
+          });
+        }
+      }
+      res.status(500).json({ error: error.message });
+    });
   })
   .catch((error) => res.status(500).json({ error }));
 }
