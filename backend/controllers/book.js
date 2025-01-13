@@ -28,7 +28,7 @@ exports.modifyBook = (req, res, next) => {
     Book.findOne({_id: req.params.id})
     .then((book)=> {
       if(book.userId != req.auth.userId) {
-        res.status(403).json(new Error("Unauthorized request"))
+        res.status(403).json({ message: new Error("Unauthorized request").message })
       } else {
         Book.updateOne({_id: req.params.id}, {...bookObject, _id: req.params.id})
         .then(()=> res.status(200).json({message: "Livre modifié !"}))
@@ -42,12 +42,12 @@ exports.deleteBook = (req, res, next) => {
  Book.findOne({ _id:req.params.id})
  .then(book => {
   if(book.userId != req.auth.userId) {
-    res.status(403).json(new Error ("Unauthorized request"))
+    res.status(403).json({ message: new Error ("Unauthorized request").message })
   } else {
     const filename = book.imageUrl.split("/images/")[1];
     fs.unlink(`images/${filename}`, ()=> {
       Book.deleteOne({_id: req.params.id})
-      .then(()=> res.status(200).json({message: "Livre supprimé !"}))
+      .then(()=> res.status(200).json({ message: "Livre supprimé !" }))
       .catch((error)=> res.status(401).json({ error }));
     })
   }
@@ -58,7 +58,7 @@ exports.deleteBook = (req, res, next) => {
 exports.getOneBook = (req, res, next) => {
   Book.findOne({ _id: req.params.id })
     .then((book) => res.status(200).json(book))
-    .catch((error) => res.status(404).json({ error }));
+    .catch((error) => res.status(404).json({ error: "Livre non trouvé" }));
 };
 
 exports.getBook = (req, res, next) => {
@@ -71,7 +71,7 @@ exports.ratingsBook = (req, res, next) => {
   Book.findOne({ _id: req.params.id })
   .then((book) => {
     if(!book) {
-      return res.status(404).json(new Error("Le livre n'a pas été trouvé !"));
+      return res.status(404).json({ message: new Error("Le livre n'a pas été trouvé !").message });
     }
 
     const userId = req.auth.userId;
@@ -79,7 +79,7 @@ exports.ratingsBook = (req, res, next) => {
   
     const existingRating = book.ratings.find((rating) => rating.userId === userId);
     if(existingRating) {
-      return res.status(400).json(new Error("Vous avez déjà noté ce livre !"));
+      return res.status(400).json({ message: new Error("Vous avez déjà noté ce livre !").message });
     }
 
     book.ratings.push({ userId, grade });
